@@ -6,7 +6,7 @@ const cors = require('cors');
 const path =  require('path');
 
 //archivos de rutas
-var project_routes = require('./routes/product');
+var project_routes = require('./routes/japanese');
 
 //middlewares
 app.use(bodyparser.urlencoded({extended: false}));

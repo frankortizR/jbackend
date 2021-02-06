@@ -1,7 +1,9 @@
 'use strict'
 
-var express = require('express');
-var ProjectController = require('../controllers/product');
+const express = require('express');
+const ProjectController = require('../controllers/product');
+const CommentController = require('../controllers/comment');
+const UserController = require('../controllers/user');
 
 var router = express.Router();
 
