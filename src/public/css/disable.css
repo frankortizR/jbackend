@@ -1,0 +1,9 @@
+body{
+    background-color: var(--c5);
+}
+
+.disable_div_cont_general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

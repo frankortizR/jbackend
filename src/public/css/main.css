@@ -1,0 +1,23 @@
+/*color1:#BF344D;
+color2:#011826;
+color3:#013440;
+color2:#012623;
+color2:#A66556;*/
+
+@import './normalize.css';
+@import './nav.css';
+@import './newprod.css';
+@import './toregister.css';
+@import './sigin.css';
+@import './disable.css';
+@import './index.css';
+:root {
+    --c1: #BF344D;
+    --c2:#011826;
+    --c3: #013440;
+    --c4: #012623;
+    --c5: #A66556;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

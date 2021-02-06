@@ -1,0 +1,20 @@
+<%- include('components/head') %>
+
+    <body>
+        <%- include('components/nav') %>
+            <div class="home_div_cont_general">
+                <h1>Ingreso de nuevo producto</h1>
+                <form id="home_form" class="home_form" action="">
+                    <input id="int" class="home_int entry" type="text" required autocomplete="off" placeholder="meta el titulo">
+                    <input id="inp" class="home_inp entry" type="number" required autocomplete="off" placeholder="meta el precio" step="any">
+                    <input id="inm" class="home_inm entry" type="text" required autocomplete="off" placeholder="meta la imagen principal">
+                    <input id="ind" class="home_ind entry" type="text" required autocomplete="off" placeholder="meta la descripcion">
+                    <button type="submit" id="bot" class="home-boton-send">Send it bitch</button>
+                </form>
+            </div>
+    </body>
+    <script src="scripts/newprod.js"></script>
+    <script src="scripts/logout.js"></script>
+
+
+    </html>
