@@ -14,7 +14,7 @@ var multiPart = require('connect-multiparty');
 // ----------- GETS
 router.get('/', ProjectController.def);
 router.get('/home', ProjectController.home);
-router.get('/tosignup', ProjectController.register);
+router.get('/tosignup', ProjectController.toregister);
 router.get('/tosigin', ProjectController.tosigin);
 router.get('/newprod', ProjectController.enterProd);
 router.get('/create1', ProjectController.createProduct);
