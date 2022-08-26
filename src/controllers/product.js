@@ -39,9 +39,9 @@ var controller = {
         product.imgp = params.imgp;
         product.description = params.description;
         product.save((err, productStored) => {
-            if(err) return res.status(500).send({meesage: "hubo un error guardando macho"});
+            if(err) return res.status(500).send({meesage: "hubo un error guardando"});
 
-            if(!productStored) return res.status(404).send({message: "no se pudo guardar weon"});
+            if(!productStored) return res.status(404).send({message: "no se pudo guardar"});
 
             return res.status(200).send({product: productStored, message: "guardado correctamente"});
         });
@@ -85,7 +85,7 @@ var controller = {
         const token = jwt.sign({id: newuser._id}, process.env.SECRET, {
             expiresIn: 60*60*24
         });
-        res.json({message: 'ok got it, ya se guardo', auth: true, token});
+        res.json({message: 'ok got it', auth: true, token});
     },
 
     toregister: function (req, res) {

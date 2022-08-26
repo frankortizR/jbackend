@@ -1,7 +1,7 @@
 window.addEventListener('load', async () => {
     const tokensito = localStorage.getItem('tokensito');
     if (!tokensito) {
-        alert('no hay token');
+        alert('No se ha identificado');
         window.location.href = '/tosignup';
     } else {
         await axios({
@@ -32,7 +32,7 @@ let imgp = document.getElementById('inm')
 let description = document.getElementById('ind')
 botoncito.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('wenas wenas como estamos');
+    console.log('Buenas');
     console.log(title.value);
     console.log(price.value);
     console.log(imgp.value);
